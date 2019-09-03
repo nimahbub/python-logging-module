@@ -28,13 +28,22 @@ With the logging module imported, you can use something called a “logger” to
 - **Critical** (logger.critical): Indicates a serious error that might stop the program from running.
 
 
-# steps to be followed to record log events to a file:
+# Steps to be followed to record log events to a file:
 
 1. Import the logging module
 2. Configure the logger using basicConfig method 
 3. Creating a logger object.
 4. Setting the threshold value of logger.
 5. Use the logging methods.
+
+# Logging to a File vs the Standard Output
+By default logger objects output the logs to the standard output. You can use **basicConfig()** method to change this and other parameters. Below is a list of parameters for the **basicConfig** method:
+
+- level: Set the logger a severity level. Any messages below this severity level will not be logged
+- filename: The name of the file where logs are written
+- filemode: The mode in which the file specified, if any, is to be opened.
+- format: Specifies the format of the log message. This is a string with LogRecord attributes.
+
 
 
 If we run **basiclogger.py** file it will autometically create a new file called  **testFile.log**.If you open this file we will see the info message.
