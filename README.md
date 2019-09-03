@@ -17,5 +17,5 @@ For a small project we generally use print() function to debug our program.But i
 
 With the logging module imported, you can use something called a “logger” to log messages that you want to see. By default, there are 5 standard levels indicating the severity of events. Each has a corresponding method that can be used to log events at that level of severity. The defined levels, in order of increasing severity, are the following:
 
-- Debug (logger.debug): Provide very detailed output. Used for diagnosing problems.
+- **Debug** (logger.debug): Provide very detailed output. Used for diagnosing problems.
 
