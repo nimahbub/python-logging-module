@@ -19,3 +19,11 @@ With the logging module imported, you can use something called a “logger” to
 
 - **Debug** (logger.debug): Provide very detailed output. Used for diagnosing problems.
 
+- **Info** (logger.info): Provides information on successful execution. Confirms if things are working as expected.
+
+- **Warning** (logger.warn or logger.warning): Issue a warning regarding a problem that might occur in the future or a recoverable fault.
+
+- **Error** (logger.error): Indicates a problem in the software as it is not executing as expected.
+
+- **Critical** (logger.critical): Indicates a serious error that might stop the program from running.
+
