@@ -13,7 +13,7 @@ For a small project we generally use print() function to debug our program.But i
  •	You can differentiate your logging based on severity
 
 
-# Using of logging module 
+# Logging Types (Log levels)
 
 With the logging module imported, you can use something called a “logger” to log messages that you want to see. By default, there are 5 standard levels indicating the severity of events. Each has a corresponding method that can be used to log events at that level of severity. The defined levels, in order of increasing severity, are the following:
 
@@ -26,6 +26,15 @@ With the logging module imported, you can use something called a “logger” to
 - **Error** (logger.error): Indicates a problem in the software as it is not executing as expected.
 
 - **Critical** (logger.critical): Indicates a serious error that might stop the program from running.
+
+
+# steps to be followed to record log events to a file:
+
+1. Import the logging module
+2. Configure the logger using basicConfig method 
+3. Creating a logger object.
+4. Setting the threshold value of logger.
+5. Use the logging methods.
 
 
 If we run **basiclogger.py** file it will autometically create a new file called  **testFile.log**.If you open this file we will see the info message.
