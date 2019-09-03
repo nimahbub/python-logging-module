@@ -27,3 +27,5 @@ With the logging module imported, you can use something called a “logger” to
 
 - **Critical** (logger.critical): Indicates a serious error that might stop the program from running.
 
+
+If we run **basiclogger.py** file it will autometically create a new file called  **testFile.log**.If you open this file we will see the info message.
